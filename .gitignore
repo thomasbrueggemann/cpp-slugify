@@ -30,3 +30,4 @@
 
 slugifytest
 .DS_Store
+*.dSYM
