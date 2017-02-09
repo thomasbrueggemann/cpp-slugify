@@ -8,5 +8,6 @@ Modern header-only C++ library to slugify a string
 ```cpp
 #include "slugify.hpp";
 
-
+std::string test = slugify("This is a test!");
+// creates: This-is-a-test
 ```

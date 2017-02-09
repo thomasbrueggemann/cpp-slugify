@@ -6,10 +6,8 @@
 
 TEST_CASE("Create slugified string", "[Slugify]" ) {
 
-	Slugify slug;
-	std::string test = slug.SlugIt("Dies ist €in Test");
-
+	std::string test = slugify("Dies ist €in Test! ");
 	std::cout << test << std::endl;
 
-	REQUIRE( 1 == 1 );
+	REQUIRE(test.length() > 0);
 }
