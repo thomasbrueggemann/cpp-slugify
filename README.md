@@ -1,4 +1,4 @@
-# C++ Slugify
+# 🔨 C++ Slugify
 Modern header-only C++ library to slugify a string
 
 ## Installation
@@ -9,5 +9,5 @@ Modern header-only C++ library to slugify a string
 #include "slugify.hpp";
 
 std::string test = slugify("This is a test!");
-// creates: This-is-a-test
+// This-is-a-test
 ```
