@@ -1,2 +1,12 @@
-# cpp-slugify
-Modern C++ std::string extension to slugify a string
+# C++ Slugify
+Modern header-only C++ library to slugify a string
+
+## Installation
+
+## Usage
+
+```cpp
+#include "slugify.hpp";
+
+
+```
